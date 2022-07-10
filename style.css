@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=fira+Sans&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+}
+/*.bodym{
+    background: url('./images/web.gif') center no-repeat ;
+    justify-content: center;
+    background-size: cover;
+} */
+.sidebar {
+   /* position: absolute;  */
+     background-color: white;
+     font-family: 'Fira Sans',sans-serif;
+     height: 90vh;
+     width: 300px;
+     transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0; 
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color:midnightblue;
+}
+.main{
+     /*background-color: yellow;*/
+     width:90vw;
+     font-family: 'Fira Sans',sans-serif;
+
+
+}
+.container{
+     display:flex;
+}
+.infocontainer{
+    margin: 150px auto;
+   /* background-color: red; */
+    height: 55vh;
+    width:70vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devPic img{
+   /* margin-left: 178%; */
+    height: 55vh;
+    
+
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 3em;
+    
+}
+.name{
+     font-size: 3em;
+     font-weight: bold;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color:blue;
+}
+.about{
+     font-size: 2.5em;
+}
+.moreabout{
+    font-size: 1.8em;
+    margin-top:23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.btn{
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: whitesmoke;
+     background-color: blueviolet;
+     font-weight: bold;
+     font-size: 1.3em;
+     margin: 0 3px;
+     cursor: pointer;
+     
+}
+.btn-sm{
+    padding: 8px 13px;
+    margin:9px;
+    font-size: 1em;
+}
+.btn:hover{
+      background-color:white;
+      color:black;
+}
+.buttons{
+    margin-top:2.2em;
+    font-size: 16px;
+}
+.contactform{
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 50px 120px;
+} 
+.contactform h1{
+     font-family: 'Source Code Pro', monospace;
+   /* padding: 12px 0; */
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+  /*  width: 16vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+
+}
+.contactform form {
+  margin: 0 30px;
+  
+  }
+#emailHelp{
+    font-size: 9px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 2px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+     width: 24px;
+     margin-left:3px 0;
+}
+.div textarea{
+    width:30px ;
+    height: 20px;
+}
+.mani{
+    width:371px;
+    height:122px;
+}
+.blogItem h2{
+     
+}
+.blogcontainer{
+    margin: 0 120px;
+}
+.blogItem{
+    font-family:'Fira Sans', sans-serif ;
+    margin: 23px;
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.meAce{
+    
+    color:rgb(14, 8, 20);
+    padding-top: 12px;
+    padding-left: 80px;
+    margin-left: 250px;
+}
+.meUg{
+    margin: 2px;
+    padding: 10px;
+}
+.aboutcontainer p{
+    padding: 5px;
+}
+.aboutcontainer{
+    margin: 10px 88px;
+
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: brown;
+}
+.skillcontainer{
+    padding:12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width: 265px;
+    height: 6px;
+    background-color: brown;
+    border: 2px solid black;
+}
+.sixty{
+     width: 225px;
+     height: 6px;
+     background-color: mediumblue;
+     border: 2px solid black;
+}
+.t5{
+    width: 175px;
+    height: 6px;
+    background-color: rgb(37, 7, 7);
+    border: 2px solid black;
+}
+.thirty{
+    width: 120px; height: 6px;
+    background-color: rgb(170, 19, 132);
+    border: 2px solid black;
+
+}
+.t45{
+    width: 205px; height: 6px;
+    background-color: rgb(150, 221, 18);
+    border: 2px solid black;
+}
+.t4{
+    width:155px;
+    height: 6px;
+    background-color: rgb(134, 41, 211);
+    border: 2px solid black;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ /* .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}  */
+  .hamburger{
+      /*display: none; */
+      position: absolute;
+      cursor: pointer;
+      top:10px;
+      left: 10px; 
+  } 
+  .ham{
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  .cross{
+      margin-left: 185px;
+      margin-top: 10px;
+  }
+  .slider{
+    display: flex;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+   *{
+     /* background-color: #008000; */
+      color: black;
+    }
+    .sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+    .hamburger{
+        display: inline;
+       position: absolute;
+      cursor: pointer;
+      top:10px;
+      left: 10px;
+    }
+    .sidebar{
+       /* position: absolute;  */
+    }
+    .buttons{
+        font-size: 6.5px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .aboutcontainer, .blogcontainer, .contactform{
+        margin: 50px 8px;
+    }
+  }
+  .socialmedia{
+      position: sticky;
+      padding:4px;
+      margin-left: 500px;
+    
+    
+  }
+
+  .service h1{
+    margin-left: 10px;
+     text-align: center;
+    border-radius: 4px;
+    padding: 6px;
+}
+.serv{
+    display: flex;
+}
+.card{
+    padding: 160px 50px;
+    margin: 23px 12px;
+    box-shadow: -6px -4px 10px 5px rgb(21, 102, 134) ;
+}
+#card1{
+    background-image: url('./images/webs.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:black;
+}
+#card2{
+    background-image: url('./images/ads.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#card3{
+    background-image: url('./images/android.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(123, 16, 165);
+    box-shadow: -6px -4px 6px 5px black ;
+}
+.card h2{
+    text-shadow: 3px 2px rgb(207, 197, 197);
+}
